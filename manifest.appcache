@@ -1,0 +1,16 @@
+# CACHE MANIFEST
+# version 2014-11-30
+CACHE:
+
+#html files
+cards.html
+
+#js files
+static/cards.js
+
+# css files
+static/cards.css
+
+# img files
+static/flower.jpg
+static/cat.jpg

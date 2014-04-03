@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <title>Card Game</title>
+            <meta  http-equiv= 'Content-Type' charset='utf-8'/>
+        <link href="{{ url_for('static', filename='cards.css') }}" rel= 'stylesheet' type= 'text/css'/>
+        
+        <script src="{{ url_for('static', filename='cards.js') }}"></script>
+      </head>
+      
+      <body id = "bod">
+           <p><b>Anto's Simple Card Game</b></p>
+            <div class="sideBox"></div>
+          <button id= "save"   onclick="user()">Save Game </button>
+           <button id ="restart"  onclick = "resetGame()" > Restart Game</button>
+        
+
+        
+
+      </body>
+</html>
